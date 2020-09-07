@@ -7,6 +7,7 @@ import Colors from "../constants/Colors";
 import ProductsOverViewScreen from "./ProductsOverview";
 import ProductEditScreen from "./ProductEditScreen";
 import UserHeader from "../UI/auth/UserHeader";
+import Logo from "../UI/Logo";
 
 const MainContainer = styled.div`
   background-color: ${Colors.gray1};
@@ -24,13 +25,17 @@ const SiteHeader = styled.div`
 
 const Padder = styled.div`
   padding: 68px;
+  display: flex;
+  @media (max-width: 480px) {
+    padding: 0px;
+  }
 `;
 export default () => {
   return (
     <MainContainer>
       <SiteHeader>
         <div style={{ flex: 1 }}>
-          <img src={require("../../assets/images/logo.png")} />
+          <Logo />
           <ErrorDisplay />
         </div>
         <UserHeader />

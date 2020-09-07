@@ -1,17 +1,25 @@
 import styled from "styled-components";
 
 export const Product = styled.div`
-  width: 872px;
-  min-width: 872px;
-  max-width: 872px;
-  height: 136px;
+  padding-left: 25px;
+
   box-shadow: 0px 1px 5px 0 rgba(0, 0, 0, 0.25);
   display: flex;
   align-items: center;
   background-color: #ffffff;
-  padding-left: 25px;
   flex-direction: row;
-  margin: 10px;
+  @media (min-width: 480px) {
+    width: 872px;
+    min-width: 872px;
+    max-width: 872px;
+    height: 136px;
+    margin: 10px;
+  }
+  @media (max-width: 480px) {
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
   &:hover {
     cursor: pointer;
   }

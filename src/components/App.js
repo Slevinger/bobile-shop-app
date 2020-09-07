@@ -5,7 +5,6 @@ import { useDispatch } from "react-redux";
 import MainScreenContainer from "./screens/MainScreenContainer";
 import AuthScreen from "./screens/AuthScreen";
 import PrivateRoute from "./UI/auth/PrivateRoute";
-import "./App.css";
 
 // const history = createBrowserHistory();
 

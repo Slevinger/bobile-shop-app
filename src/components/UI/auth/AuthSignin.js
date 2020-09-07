@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
+import Logo from "../Logo";
 import Input from "../Input";
 import Button from "../Button";
 import Dialog from "../Dialog";
@@ -31,7 +32,7 @@ export default ({ label, onSubmit, link }) => {
   const [password, setPassword] = useState("");
 
   return (
-    <Dialog>
+    <Dialog logo={<Logo />}>
       <LoginPage>
         <StyledPageHeader>{label}:</StyledPageHeader>
         <Input

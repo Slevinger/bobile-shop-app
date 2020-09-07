@@ -25,9 +25,15 @@ const Dialog = styled.div`
   align-items: center;
 `;
 
-export default ({ children }) => {
+const LogoContainer = styled.div`
+  position: absolute;
+  left: 39px;
+  top: 32px;
+`;
+export default ({ children, logo }) => {
   return (
     <DialogBackground>
+      <LogoContainer>{logo}</LogoContainer>
       <Dialog>{children}</Dialog>
     </DialogBackground>
   );
