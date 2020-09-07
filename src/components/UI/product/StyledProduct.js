@@ -2,16 +2,14 @@ import styled from "styled-components";
 
 export const Product = styled.div`
   padding-left: 25px;
-
   box-shadow: 0px 1px 5px 0 rgba(0, 0, 0, 0.25);
   display: flex;
   align-items: center;
   background-color: #ffffff;
   flex-direction: row;
   @media (min-width: 480px) {
-    width: 872px;
-    min-width: 872px;
-    max-width: 872px;
+    min-width: 850px;
+    max-width: 90%;
     height: 136px;
     margin: 10px;
   }
