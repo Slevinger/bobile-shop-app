@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect } from "react";
 import { Route, Link, useHistory } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { doSignup, doLogin, tryLocalSignIn } from "../../store/actions/auth";
+import { doSignup, doLogin } from "../../store/actions/auth";
 import Auth from "../UI/auth/AuthSignin";
 
 // const history = createBrowserHistory();
