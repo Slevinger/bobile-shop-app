@@ -59,10 +59,7 @@ export const addProduct = (product) => async (dispatch, getState) => {
   }
 };
 
-export const updateProduct = ({ price, ...product }) => async (
-  dispatch,
-  getState
-) => {
+export const updateProduct = (product) => async (dispatch) => {
   try {
     const { error } = callApi(updateProductApi(product));
     if (error) {

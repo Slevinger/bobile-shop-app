@@ -143,7 +143,6 @@ export default ({ updateProduct, ...product }) => {
           style={{ maxWidth: "72px" }}
           type="text"
           value={price}
-          readOnly={id}
           onChange={onPriceChangedHandler}
         />
         <text>USD</text>

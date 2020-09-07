@@ -89,7 +89,7 @@ export default () => {
     [currentProduct]
   );
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       <div style={{ display: "flex" }}>
         <BreadCrumbs {...currentProduct} />
         <Button
