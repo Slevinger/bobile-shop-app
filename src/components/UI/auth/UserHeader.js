@@ -9,6 +9,8 @@ const HeaderUserContainer = styled.div`
   flex-direction: row;
   display: flex;
   .details {
+    padding-left: 10px;
+    padding-right: 10px;
     .email {
       color: ${Colors.gray2};
       margin-bottom: 4px;
