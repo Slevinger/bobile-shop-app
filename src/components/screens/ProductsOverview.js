@@ -11,7 +11,7 @@ const ProductsList = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  @media (max-width: 1930px) {
+  @media (max-width: 1580px) {
     justify-content: center;
   }
   flex-wrap: wrap;

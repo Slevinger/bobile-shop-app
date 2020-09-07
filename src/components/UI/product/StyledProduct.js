@@ -8,7 +8,7 @@ export const Product = styled.div`
   background-color: #ffffff;
   flex-direction: row;
   @media (min-width: 480px) {
-    min-width: 850px;
+    width: 727px;
     max-width: 90%;
     height: 136px;
     margin: 10px;
