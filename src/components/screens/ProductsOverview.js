@@ -11,6 +11,9 @@ const ProductsList = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  @media (min-width: 1500px) {
+    justify-content: center;
+  }
   flex-wrap: wrap;
 `;
 
