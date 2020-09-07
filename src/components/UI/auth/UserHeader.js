@@ -11,6 +11,7 @@ const HeaderUserContainer = styled.div`
   .details {
     padding-left: 10px;
     padding-right: 10px;
+    margin-right: 10px;
     .email {
       color: ${Colors.gray2};
       margin-bottom: 4px;
